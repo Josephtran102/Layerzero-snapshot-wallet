@@ -53,7 +53,8 @@ bash wallet.sh
 ```
 - **Kết quả:*
 [<img src='assets\Linux_result.png' alt='banner' width= '100%'>]()
-[<img src='assets\win_result.png' alt='banner' width= '100%'>]()
+
+[<img src='assets\win_rerult.png' alt='banner' width= '100%'>]()
 
 
 
