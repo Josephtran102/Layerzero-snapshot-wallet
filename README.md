@@ -22,11 +22,11 @@ grep -i "0x8964a0a2d814c0e6bf96a373f064a0af357bb4ce" snapshot1_transactions.csv
 [<img src='assets\grep_all.png' alt='banner' width= '100%'>]()
 
 ### 3. Lọc địa chỉ ví theo tên Dapp đã tương tác:
-#### a. Tạo 1 file bash script với tên `wallet.sh` bằng lệnh:
+- Tạo 1 file bash script với tên `wallet.sh` bằng lệnh:
 ```
 nano wallet.sh
 ```
-#### b. Copy nội dung bên dưới paste vào file (Cần thay thế địa chỉ muốn filter).
+- Copy nội dung bên dưới paste vào file (Cần thay thế địa chỉ muốn filter).
 [<img src='assets\bash_script.png' alt='banner' width= '100%'>]()
 ```
 #!/bin/bash
@@ -47,7 +47,7 @@ echo "Total TXN: $total_interactions"
 ```
 - Sau đó `Ctrl + O` --> `Enter` để Save file.
 - Thoát ra trở về Terminal/Cmd: `Ctrl + X`
-#### c. Chạy lệnh bash để thực thi file `wallet.sh`
+- Chạy lệnh bash để thực thi file `wallet.sh`
 ```
 bash wallet.sh
 ```
