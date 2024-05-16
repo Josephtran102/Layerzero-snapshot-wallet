@@ -15,3 +15,9 @@ cd /c/Users/Administrator/Desktop/Layerzero
 ```
 [<img src='assets\cd.png' alt='banner' width= '100%'>]()
 
+### Filter tất cả các transaction của 1 địa chỉ ví sample:
+```
+grep -i "0x8964a0a2d814c0e6bf96a373f064a0af357bb4ce" snapshot1_transactions.csv
+```
+[<img src='assets\grep_all.png' alt='banner' width= '100%'>]()
+
