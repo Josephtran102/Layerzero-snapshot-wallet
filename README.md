@@ -6,12 +6,12 @@
 
 [https://gitforwindows.org/](https://gitforwindows.org/)
 
-[<img src='assets\Git.png' alt='banner' width= '50%'>]()
+[<img src='assets\Git.png' alt='banner' width= '80%'>]()
 
 ## 3. Các câu lệnh Filter wallet: Sử dụng Terminal (Mac0S)/ Git Bash (Window)
 ### Di chuyển vào thư mục chứa file snapshot:
 ```
 cd /c/Users/Administrator/Desktop/Layerzero
 ```
-[<img src='assets\cd.png' alt='banner' width= '50%'>]()
+[<img src='assets\cd.png' alt='banner' width= '80%'>]()
 
