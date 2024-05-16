@@ -62,7 +62,7 @@ bash wallet.sh
 ```
 awk -F ',' '{print $5}' snapshot1_transactions.csv | sort -u > addresses.txt
 ```
-Download file Addresses:
+- Download file Addresses:
 [https://drive.google.com/file/d/1vgTnD6Y_01YkoQvJIcsifas6XjY2t-Mk/view?usp=sharing](https://drive.google.com/file/d/1vgTnD6Y_01YkoQvJIcsifas6XjY2t-Mk/view?usp=sharing)
 
 
