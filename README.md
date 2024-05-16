@@ -1,5 +1,5 @@
 [<img src='assets\Layerzero_banner.png' alt='banner' width= '100%'>]()
-# Layerzero-snapshot-wallet
+# LayerZero-snapshot-wallets
 ## I. Download và giải nén file `snapshot1_transactions.csv`:
 [snapshot1_transactions.csv](https://layerzerodataset.s3.us-east-2.amazonaws.com/2024-05-15-snapshot1_transactions.csv.gz)
 
