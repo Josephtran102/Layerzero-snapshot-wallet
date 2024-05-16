@@ -56,5 +56,10 @@ bash wallet.sh
 
 [<img src='assets\win_rerult.png' alt='banner' width= '100%'>]()
 
+### 4. Filter tất cả địa chỉ ví trong file snapshot và lưu vào file `addresses.txt`
+```
+awk -F ',' '{print $5}' snapshot1_transactions.csv | sort -u > addresses.txt
+```
+
 
 
