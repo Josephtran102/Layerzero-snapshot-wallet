@@ -27,6 +27,7 @@ grep -i "0x8964a0a2d814c0e6bf96a373f064a0af357bb4ce" snapshot1_transactions.csv
 nano wallet.sh
 ```
 Copy nội dung bên dưới paste vào file (Cần thay thế địa chỉ muốn filter).
+[<img src='assets\bash_script.png' alt='banner' width= '100%'>]()
 ```
 #!/bin/bash
 
@@ -46,24 +47,13 @@ echo "Total TXN: $total_interactions"
 ```
 - Sau đó `Ctrl + O` --> `Enter` để Save file.
 - Thoát ra trở về Terminal/Cmd: `Ctrl + X`
-
+#### Chạy lệnh bash để thực thi file `wallet.sh`
 ```
-#!/bin/bash
-
-wallet_address="0x8964a0a2d814c0e6bf96a373f064a0af357bb4ce"
-
-# Lọc và đếm số lần tương tác với mỗi Dapp
-interactions=$(grep "$wallet_address" snapshot1_transactions.csv | awk -F',' '{print $7}' | grep -v '^$' | sort | uniq -c | sort -nr)
-
-# In ra chi tiết số lần tương tác với mỗi Dapp
-echo "$interactions"
-
-# Tính tổng số lần tương tác
-total_interactions=$(echo "$interactions" | awk '{ sum += $1 } END { print sum }')
-
-# In ra tổng số lần tương tác
-echo "Total TXN: $total_interactions"
+bash wallet.sh
 ```
 - **Kết quả:*
+[<img src='assets\Linux_result.png' alt='banner' width= '100%'>]()
+[<img src='assets\win_result.png' alt='banner' width= '100%'>]()
+
 
 
