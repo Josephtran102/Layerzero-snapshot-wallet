@@ -35,7 +35,7 @@ nano wallet.sh
 wallet_address="0x8964a0a2d814c0e6bf96a373f064a0af357bb4ce"
 
 # Lọc và đếm số lần tương tác với mỗi Dapp
-interactions=$(grep "$wallet_address" snapshot1_transactions.csv | awk -F',' '{print $7}' | grep -v '^$' | sort | uniq -c | sort -nr)
+interactions=$(grep -i "$wallet_address" snapshot1_transactions.csv | awk -F',' '{print $7}' | grep -v '^$' | sort | uniq -c | sort -nr)
 
 # In ra chi tiết số lần tương tác với mỗi Dapp
 echo "$interactions"
