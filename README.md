@@ -3,7 +3,7 @@
 Link: [https://download.josephtran.xyz/provisionalSybilList.txt](https://download.josephtran.xyz/provisionalSybilList.txt)
 # LayerZero-snapshot-wallets
 ## I. Download và giải nén file `snapshot1_transactions.csv`:
-[snapshot1_transactions.csv](https://download.josephtran.xyz/snapshot1_transactions.csv)
+[https://download.josephtran.xyz/snapshot1_transactions.csv](https://download.josephtran.xyz/snapshot1_transactions.csv)
 
 ## II. Window cần cài đặt Git Bash:
 
